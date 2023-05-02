@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pulse2k23/static/css/main.0477150b.css",
-    "main.js": "/pulse2k23/static/js/main.4955a044.js",
+    "main.css": "/pulse2k23/static/css/main.bb269aed.css",
+    "main.js": "/pulse2k23/static/js/main.dbd188b2.js",
     "static/media/Intro-pulse.mp4": "/pulse2k23/static/media/Intro-pulse.23cccc2f01acf4d8aec8.mp4",
     "static/media/Kallol Mondal.jpg": "/pulse2k23/static/media/Kallol Mondal.fec2723fe47a2e56c900.jpg",
     "static/media/pulse-loader-2.gif": "/pulse2k23/static/media/pulse-loader-2.0e3ea4a209753310a611.gif",
@@ -47,11 +47,11 @@
     "static/media/iic_hrd.jpg": "/pulse2k23/static/media/iic_hrd.0c188a2603ff1880bac8.jpg",
     "static/media/address.png": "/pulse2k23/static/media/address.911b6cc2e92f54c495ec.png",
     "index.html": "/pulse2k23/index.html",
-    "main.0477150b.css.map": "/pulse2k23/static/css/main.0477150b.css.map",
-    "main.4955a044.js.map": "/pulse2k23/static/js/main.4955a044.js.map"
+    "main.bb269aed.css.map": "/pulse2k23/static/css/main.bb269aed.css.map",
+    "main.dbd188b2.js.map": "/pulse2k23/static/js/main.dbd188b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0477150b.css",
-    "static/js/main.4955a044.js"
+    "static/css/main.bb269aed.css",
+    "static/js/main.dbd188b2.js"
   ]
 }
