@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pulse2k23/static/css/main.bb269aed.css",
-    "main.js": "/pulse2k23/static/js/main.1e93d9ef.js",
+    "main.css": "/pulse2k23/static/css/main.fa633d53.css",
+    "main.js": "/pulse2k23/static/js/main.29851ed0.js",
     "static/media/Intro-pulse.mp4": "/pulse2k23/static/media/Intro-pulse.23cccc2f01acf4d8aec8.mp4",
     "static/media/Kallol Mondal.jpg": "/pulse2k23/static/media/Kallol Mondal.fec2723fe47a2e56c900.jpg",
     "static/media/pulse-loader-2.gif": "/pulse2k23/static/media/pulse-loader-2.0e3ea4a209753310a611.gif",
@@ -20,7 +20,7 @@
     "static/media/Meghna Si.jpg": "/pulse2k23/static/media/Meghna Si.fe7c520515396f3a1a2c.jpg",
     "static/media/dept03.JPG": "/pulse2k23/static/media/dept03.88cbcca59d24130ade5d.JPG",
     "static/media/dept06.JPG": "/pulse2k23/static/media/dept06.888f790bc3cb14568b67.JPG",
-    "static/media/rotaract_mckvie.jpg": "/pulse2k23/static/media/rotaract_mckvie.bd3935c12b867a74ecdf.jpg",
+    "static/media/g20.jpg": "/pulse2k23/static/media/g20.0cf409071dbd236dbb7f.jpg",
     "static/media/Srijit Sarkar.jpg": "/pulse2k23/static/media/Srijit Sarkar.1e357419bf444493ff09.jpg",
     "static/media/Deep Chakraborty.jpg": "/pulse2k23/static/media/Deep Chakraborty.d8cd0ce46dd88b4d19de.jpg",
     "static/media/Anurag Banerjee (Medium).jpg": "/pulse2k23/static/media/Anurag Banerjee (Medium).84cb74d9fe7ce61644b8.jpg",
@@ -47,11 +47,11 @@
     "static/media/iic_hrd.jpg": "/pulse2k23/static/media/iic_hrd.0c188a2603ff1880bac8.jpg",
     "static/media/address.png": "/pulse2k23/static/media/address.911b6cc2e92f54c495ec.png",
     "index.html": "/pulse2k23/index.html",
-    "main.bb269aed.css.map": "/pulse2k23/static/css/main.bb269aed.css.map",
-    "main.1e93d9ef.js.map": "/pulse2k23/static/js/main.1e93d9ef.js.map"
+    "main.fa633d53.css.map": "/pulse2k23/static/css/main.fa633d53.css.map",
+    "main.29851ed0.js.map": "/pulse2k23/static/js/main.29851ed0.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb269aed.css",
-    "static/js/main.1e93d9ef.js"
+    "static/css/main.fa633d53.css",
+    "static/js/main.29851ed0.js"
   ]
 }
