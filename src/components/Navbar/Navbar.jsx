@@ -24,8 +24,8 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClick = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
-        setOpen(false);
+      if (navLinksRef.current && !navLinksRef.current.contains(event.target)) {
+        setMenu(false);
       }
     };
   
@@ -34,8 +34,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handleClick);
     };
-  }, [handleClickOutside]); // add handleClickOutside here
-  
+  }, [handleClickOutside]);
 
   return (
     <div className="navbar">
