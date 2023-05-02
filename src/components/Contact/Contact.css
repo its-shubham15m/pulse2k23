@@ -1,0 +1,32 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .sub-title{
+    color: var(--main-yellow);
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contact-text{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contact-heading{
+    font-weight: 600;
+    font-size: 1.2rem;
+}

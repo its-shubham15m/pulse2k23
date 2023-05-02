@@ -1,0 +1,53 @@
+.eventcard{
+    background-color: var(--dark-2);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    height: 450px;
+    max-width: 350px;
+    width: 100%;
+    color: white;
+}
+
+.eventcard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2.2rem;
+}
+
+.round-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-num{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.round-name{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--main-blue);
+}
+
+.round-subtitle{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.icon{
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-desc{
+    font-weight: 400;
+    font-size: 0.8rem;
+}

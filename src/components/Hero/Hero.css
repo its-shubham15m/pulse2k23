@@ -1,0 +1,125 @@
+.hero{
+    min-height: 100vh;
+    background: var(--dark-1);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, --dark-1, --dark-2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, --dark-1, --dark-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+
+.nav-bar{
+    z-index: 10;
+}
+
+.hero-content{
+    height: 100%;
+    min-height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 3rem;
+}
+
+
+.hero-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 4rem;
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.main-title{
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.tagline{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.pulse{
+    color: var(--main-yellow);
+}
+
+.exe{
+    color: var(--main-blue);
+}
+
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.countdown {
+    color: white;
+    border: 2.5px solid transparent;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0% {
+        border-color: #ffc107;
+    }
+    50% {
+        border-color: #17a2b8;
+    }
+    100% {
+        border-color: #ffc107;
+    }
+}
+
+
+
+@media screen and (max-width: 850px){
+    .main-title{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    .main-title{
+        font-size: 3rem;
+    }
+    .tagline{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main-title{
+        font-size: 2.4rem;
+    }
+    .cta-buttons{
+        gap: 1rem;
+    }
+    .cta-buttons .main-btn{
+        font-size: 0.8rem;
+    }
+    .cta-buttons .secondary-btn{
+        font-size: 0.8rem;
+    }
+}

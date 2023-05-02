@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: #41644A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, --dark-1, --dark-2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, --dark-1, --dark-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: var(--dark-1);
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+.logo{
+    width: 9rem;
+}
+
+.navlinks{
+    position: relative;
+    bottom: -120rem;
+    right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--dark-2);
+    border-radius: 1rem;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+.navlinks-active{
+    top: 5rem;
+    transition: all 0.35s ease-in-out;
+}
+
+.navlinks .main-btn{
+    font-size: 1rem;
+    padding: 0.5rem 1.4rem;
+}
+
+.navbar .main-btn{
+    font-size: 0.9rem;
+}
+
+.menu-icon{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

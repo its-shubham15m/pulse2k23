@@ -1,0 +1,29 @@
+.venue-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.venue .sub-title{
+    color: var(--main-yellow);
+}
+
+.venue-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.venue-icon{
+    width: 6rem;
+}
+
+.venue-info{
+    font-size: 1.2rem;
+    font-weight: 400;
+}

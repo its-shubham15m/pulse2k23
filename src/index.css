@@ -1,0 +1,145 @@
+:root{
+    --main-blue: #1aa89e;
+    --main-blue-dark: #12746d;
+    --main-yellow: #f79622;
+    --main-orange: #FFB84C;
+    --main-yellow-dark: #be7317;
+    --dark-1: #212433; /* a slightly darker and cooler shade than the original dark-1 */
+    --dark-2: #2c2e36; /* a cooler shade similar to the original dark-2 */
+    --dark-3: #363b46; /* a slightly darker and warmer shade than the original dark-3 */
+    --main-grey: #828282;
+    --main-grey-blue: #4E6E81;
+    --main-green: #25D366;
+    --main-green-light: #128C7E;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--dark-1);
+}
+
+body,
+button,
+input,
+textarea{
+    font-family: "Poppins",sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4rem;
+    position: relative;
+    /* z-index: 5; */
+}
+
+.section {
+    padding: 7rem 0;
+}
+
+.main-btn {
+    display: inline-block;
+    background-color: var(--main-blue);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.main-btn:hover{
+    transition: all 0.25s ease-in-out;
+    background-color: var(--main-blue-dark);
+}
+.secondary-btn {
+    display: inline-block;
+    background-color: var(--main-yellow);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.secondary-btn:hover{
+    transition: all 0.25s ease-in-out;
+    background-color: var(--main-yellow-dark);
+}
+.tertiary-btn {
+    display: inline-block;
+    background-color: var(--main-green);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.tertiary-btn:hover{
+    transition: all 0.25s ease-in-out;
+    background-color: var(--main-green-light);
+}
+
+
+.title {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+    .container{
+        padding: 0 2rem;
+    }
+
+    .title{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    /* .container{
+        padding: 0 1rem;
+    } */
+
+    .title{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,46 @@
+.prizes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prizes-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.prize-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+
+.prize-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 250px;
+    gap: 1rem;
+}
+
+.prize-icon{
+    width: 4rem;
+}
+
+.prize-info{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.prizes .sub-title{
+    color: var(--main-yellow);
+}

@@ -1,0 +1,37 @@
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.time-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time-card-count{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.time-card-name{
+    font-weight: 300;
+}
+
+@media screen and (max-width:550px){
+    .timer{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:375px){
+    .time-card-count{
+        font-size: 1.5rem;
+    }
+
+    .time-card-name{
+        font-size: 0.8rem;
+    }
+}

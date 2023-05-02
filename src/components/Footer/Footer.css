@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: var(--main-grey-blue);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer .container{
+    padding: 1rem 2rem;
+}
