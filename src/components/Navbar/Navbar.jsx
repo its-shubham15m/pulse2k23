@@ -23,11 +23,19 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    document.addEventListener("click", handleClickOutside);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
+    const handleClick = (event) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setOpen(false);
+      }
     };
-  }, [menu]);
+  
+    document.addEventListener("mousedown", handleClick);
+  
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, [handleClickOutside]); // add handleClickOutside here
+  
 
   return (
     <div className="navbar">

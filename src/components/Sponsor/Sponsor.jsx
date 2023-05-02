@@ -13,13 +13,16 @@ function Sponsor() {
       <div className="sponsor-container">
         <img
           src={pic1}
-          className="sponsor-image left-image"/>
+          className="sponsor-image left-image"
+          alt="Sponsor 1"/>
         <img
           src={pic2}
-          className="sponsor-image middle-image"/>
+          className="sponsor-image middle-image"
+          alt="Sponsor 2"/>
         <img
           src={pic3}
-          className="sponsor-image right-image"/>
+          className="sponsor-image right-image"
+          alt="Sponsor 3"/>
       </div>
     </div>
   );
