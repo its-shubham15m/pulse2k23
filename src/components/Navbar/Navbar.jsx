@@ -8,8 +8,12 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinksRef = useRef(null);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+  const toggleMenu = (e) => {
+    if (e.target.classList.contains('menu-icon') && menuOpen) {
+      setMenuOpen(false);
+    } else {
+      setMenuOpen(!menuOpen);
+    }
   };
 
   const handleClickOutside = (e) => {
@@ -32,35 +36,31 @@ const Navbar = () => {
           <img src={LogoIcon} alt="Logo" className="logo-img" />
         </div>
         <div ref={navLinksRef} className={`navlinks ${menuOpen ? "navlinks-active" : ""}`}>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#about">About</a>
           </div>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#venue">Date & Venue</a>
           </div>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#rules">Rules</a>
           </div>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#prizes">Prizes</a>
           </div>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#agenda">Schedule</a>
           </div>
-          <div className="navlink" onClick={toggleMenu}>
+          <div className="navlink" onClick={(e) => toggleMenu(e)}>
             <a href="#contact">Contact</a>
           </div>
-          <div className="navlink main-btn nav-btn" onClick={toggleMenu}>
-            <a
-              href="https://forms.gle/37vn6pdfGodQWmH57"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <div className="navlink main-btn nav-btn" onClick={(e) => toggleMenu(e)}>
+            <a href="https://forms.gle/37vn6pdfGodQWmH57" target="_blank" rel="noreferrer">
               Register
             </a>
           </div>
         </div>
-        <div className="menu-icon" onClick={toggleMenu}>
+        <div className="menu-icon" onClick={(e) => toggleMenu(e)}>
           <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
         </div>
       </div>

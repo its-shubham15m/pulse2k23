@@ -1,8 +1,8 @@
 import React from "react";
 import "./Sponsor.css";
 import pic1 from "../../img/iic_mckvie.jpg";
-import pic2 from "../../img/rotaract_mckvie.jpg";
-import pic3 from "../../img/iic_hrd.jpg";
+import pic2 from "../../img/iic_hrd.jpg";
+import pic3 from "../../img/g20.jpg";
 
 function Sponsor() {
   return (
