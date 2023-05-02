@@ -1,3 +1,8 @@
+:root {
+    --dark-1: #41644A;
+    --dark-2: #2C4238;
+  }
+
 .navbar{
     width: 100%;
     height: 5rem;

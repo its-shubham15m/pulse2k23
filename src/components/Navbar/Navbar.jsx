@@ -2,69 +2,55 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
 import LogoIcon from "../../img/pulse-logo-png1.2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const navLinksRef = useRef(null);
 
-  const handleClick = () => {
-    setMenu((prev) => !prev);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   const handleClickOutside = (e) => {
-    if (
-      navLinksRef.current &&
-      !navLinksRef.current.contains(e.target) &&
-      menu
-    ) {
-      setMenu(false);
+    if (navLinksRef.current && !navLinksRef.current.contains(e.target) && menuOpen) {
+      setMenuOpen(false);
     }
   };
 
   useEffect(() => {
-    const handleClick = (event) => {
-      if (navLinksRef.current && !navLinksRef.current.contains(event.target)) {
-        setMenu(false);
-      }
-    };
-  
-    document.addEventListener("mousedown", handleClick);
-  
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [handleClickOutside]);
+  }, [menuOpen]);
 
   return (
     <div className="navbar">
       <div className="navbar-content container">
         <div className="logo">
-          <img src={LogoIcon} alt="" className="logo-img" />
+          <img src={LogoIcon} alt="Logo" className="logo-img" />
         </div>
-        <div
-          ref={navLinksRef}
-          className={menu ? "navlinks navlinks-active" : "navlinks"}
-        >
-          <div className="navlink" onClick={handleClick}>
+        <div ref={navLinksRef} className={`navlinks ${menuOpen ? "navlinks-active" : ""}`}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#about">About</a>
           </div>
-          <div className="navlink" onClick={handleClick}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#venue">Date & Venue</a>
           </div>
-          <div className="navlink" onClick={handleClick}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#rules">Rules</a>
           </div>
-          <div className="navlink" onClick={handleClick}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#prizes">Prizes</a>
           </div>
-          <div className="navlink" onClick={handleClick}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#agenda">Schedule</a>
           </div>
-          <div className="navlink" onClick={handleClick}>
+          <div className="navlink" onClick={toggleMenu}>
             <a href="#contact">Contact</a>
           </div>
-          <div className="navlink main-btn nav-btn" onClick={handleClick}>
+          <div className="navlink main-btn nav-btn" onClick={toggleMenu}>
             <a
               href="https://forms.gle/37vn6pdfGodQWmH57"
               target="_blank"
@@ -74,8 +60,8 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <div className="menu-icon" onClick={handleClick}>
-          <FontAwesomeIcon icon={menu ? faXmark : faBars} />
+        <div className="menu-icon" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
         </div>
       </div>
     </div>
