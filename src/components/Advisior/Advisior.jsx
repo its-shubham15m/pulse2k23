@@ -9,7 +9,7 @@ import member5 from "../../members/Srijit Sarkar.jpg";
 const Advisior = () => {
   const membersArr = useMemo(
     () => [
-      { id: 1, name: "Anurag Banerjee", image: member1, whatsappLink: "https://wa.me/8777013696" },
+      { id: 1, name: "Anurag Banerjee", image: member1, whatsappLink: "https://wa.me/+918777013696" },
       { id: 2, name: "Anuska Kar", image: member2, whatsappLink: "https://wa.me/9874702562" },
       { id: 3, name: "Pritha Biswas", image: member3, whatsappLink: "https://wa.me/6290615502" },
       { id: 4, name: "Saikat Dey", image: member4, whatsappLink: "https://wa.me/9434959513" },
