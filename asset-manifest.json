@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pulse2k23/static/css/main.fa633d53.css",
-    "main.js": "/pulse2k23/static/js/main.84c63b21.js",
+    "main.js": "/pulse2k23/static/js/main.58b22574.js",
     "static/media/Intro-pulse.mp4": "/pulse2k23/static/media/Intro-pulse.23cccc2f01acf4d8aec8.mp4",
     "static/media/Kallol Mondal.jpg": "/pulse2k23/static/media/Kallol Mondal.fec2723fe47a2e56c900.jpg",
     "static/media/pulse-loader-2.gif": "/pulse2k23/static/media/pulse-loader-2.0e3ea4a209753310a611.gif",
@@ -10,16 +10,19 @@
     "static/media/Subhodeep Neogi.jpg": "/pulse2k23/static/media/Subhodeep Neogi.2900ceb3f8d3529463c8.jpg",
     "static/media/Diptanshu Ghosh.jpg": "/pulse2k23/static/media/Diptanshu Ghosh.ef9f0c25f87eb3c3fdac.jpg",
     "static/media/Shubham Gupta.jpg": "/pulse2k23/static/media/Shubham Gupta.052a404df7d598f18a3c.jpg",
+    "static/media/dept02.JPG": "/pulse2k23/static/media/dept02.1e1d687c04f9733b4878.JPG",
     "static/media/Supratim Dey.jpg": "/pulse2k23/static/media/Supratim Dey.bd03125a41edaf0d4c68.jpg",
+    "static/media/dept09.JPG": "/pulse2k23/static/media/dept09.4c600418b922319deacc.JPG",
     "static/media/Sreemoyee Chatterjee.jpg": "/pulse2k23/static/media/Sreemoyee Chatterjee.4ee044a5da4343e3c031.jpg",
-    "static/media/dept04.JPG": "/pulse2k23/static/media/dept04.cbf4ecaeaa11581cb9ee.JPG",
-    "static/media/dept02.JPG": "/pulse2k23/static/media/dept02.13fdac0fc4242c4299a5.JPG",
+    "static/media/dept04.JPG": "/pulse2k23/static/media/dept04.5d051c7082196d27cb0a.JPG",
+    "static/media/dept06.JPG": "/pulse2k23/static/media/dept06.cbf4ecaeaa11581cb9ee.JPG",
+    "static/media/dept03.JPG": "/pulse2k23/static/media/dept03.13fdac0fc4242c4299a5.JPG",
     "static/media/Hrishika.jpg": "/pulse2k23/static/media/Hrishika.25635a463638c72dd533.jpg",
-    "static/media/dept05.JPG": "/pulse2k23/static/media/dept05.a48df318900eec164b31.JPG",
+    "static/media/dept07.JPG": "/pulse2k23/static/media/dept07.a48df318900eec164b31.JPG",
     "static/media/dept01.JPG": "/pulse2k23/static/media/dept01.034e74981ca076b4d104.JPG",
     "static/media/Meghna Si.jpg": "/pulse2k23/static/media/Meghna Si.fe7c520515396f3a1a2c.jpg",
-    "static/media/dept03.JPG": "/pulse2k23/static/media/dept03.88cbcca59d24130ade5d.JPG",
-    "static/media/dept06.JPG": "/pulse2k23/static/media/dept06.888f790bc3cb14568b67.JPG",
+    "static/media/dept05.JPG": "/pulse2k23/static/media/dept05.88cbcca59d24130ade5d.JPG",
+    "static/media/dept08.JPG": "/pulse2k23/static/media/dept08.888f790bc3cb14568b67.JPG",
     "static/media/g20.jpg": "/pulse2k23/static/media/g20.0cf409071dbd236dbb7f.jpg",
     "static/media/Srijit Sarkar.jpg": "/pulse2k23/static/media/Srijit Sarkar.1e357419bf444493ff09.jpg",
     "static/media/Deep Chakraborty.jpg": "/pulse2k23/static/media/Deep Chakraborty.d8cd0ce46dd88b4d19de.jpg",
@@ -48,10 +51,10 @@
     "static/media/address.png": "/pulse2k23/static/media/address.911b6cc2e92f54c495ec.png",
     "index.html": "/pulse2k23/index.html",
     "main.fa633d53.css.map": "/pulse2k23/static/css/main.fa633d53.css.map",
-    "main.84c63b21.js.map": "/pulse2k23/static/js/main.84c63b21.js.map"
+    "main.58b22574.js.map": "/pulse2k23/static/js/main.58b22574.js.map"
   },
   "entrypoints": [
     "static/css/main.fa633d53.css",
-    "static/js/main.84c63b21.js"
+    "static/js/main.58b22574.js"
   ]
 }
