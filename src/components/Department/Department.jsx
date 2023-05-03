@@ -6,8 +6,11 @@ import photo3 from '../../img/dept03.JPG';
 import photo4 from '../../img/dept04.JPG';
 import photo5 from '../../img/dept05.JPG';
 import photo6 from '../../img/dept06.JPG';
+import photo7 from '../../img/dept07.JPG';
+import photo8 from '../../img/dept08.JPG';
+import photo9 from '../../img/dept09.JPG';
 
-const photos = [photo1, photo2, photo3, photo4, photo5, photo6];
+const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9];
 
 const Department = () => {
   const [activeIndex, setActiveIndex] = useState(0);
