@@ -15,7 +15,7 @@ const Venue = () => {
                     <div className="venue-icon">
                         <img src={Calender} alt="venue-icon" />
                     </div>
-                    <div className="venue-info">Thursday, 25th May, 2023</div>
+                    <div className="venue-info">Thursday, 1st June, 2023</div>
                     <div className="venue-info">Reporting Time: 9:30am</div>
                 </div>
                 <div className="venue-card">
