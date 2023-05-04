@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pulse2k23/static/css/main.fa633d53.css",
-    "main.js": "/pulse2k23/static/js/main.68d39c0b.js",
-    "static/media/Intro-pulse.mp4": "/pulse2k23/static/media/Intro-pulse.23cccc2f01acf4d8aec8.mp4",
+    "main.js": "/pulse2k23/static/js/main.cf26e41e.js",
+    "static/media/Intro-pulse2k23.mp4": "/pulse2k23/static/media/Intro-pulse2k23.5ea822dff81eea2a60ca.mp4",
     "static/media/Kallol Mondal.jpg": "/pulse2k23/static/media/Kallol Mondal.fec2723fe47a2e56c900.jpg",
     "static/media/pulse-loader-2.gif": "/pulse2k23/static/media/pulse-loader-2.0e3ea4a209753310a611.gif",
     "static/media/Lalita Bhattacharya.jpg": "/pulse2k23/static/media/Lalita Bhattacharya.52c879c9cb87f33de900.jpg",
@@ -51,10 +51,10 @@
     "static/media/address.png": "/pulse2k23/static/media/address.911b6cc2e92f54c495ec.png",
     "index.html": "/pulse2k23/index.html",
     "main.fa633d53.css.map": "/pulse2k23/static/css/main.fa633d53.css.map",
-    "main.68d39c0b.js.map": "/pulse2k23/static/js/main.68d39c0b.js.map"
+    "main.cf26e41e.js.map": "/pulse2k23/static/js/main.cf26e41e.js.map"
   },
   "entrypoints": [
     "static/css/main.fa633d53.css",
-    "static/js/main.68d39c0b.js"
+    "static/js/main.cf26e41e.js"
   ]
 }
