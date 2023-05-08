@@ -46,7 +46,7 @@ const Agenda = () => {
                 <div className="arrow-line"></div>
             </div>
             <div className="agenda-time">01:00 PM - 01:30 PM</div>
-            <div className="agenda-name">Tech-Spotlight</div>
+            <div className="agenda-name">Picture-Perfect</div>
             30 minutes round based on Audio-Visual Interative Session.
         </div>
         <div className="agenda-text">
