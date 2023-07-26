@@ -13,8 +13,8 @@ import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import Loader from "./components/Loader/Loader";
 import Department from "./components/Department/Department";
 import Members from "./components/Members/Members";
-import Sponsor from "./components/Sponsor/Sponsor"
-import Advisior from "./components/Advisior/Advisior"
+import Sponsor from "./components/Sponsor/Sponsor";
+import Advisior from "./components/Advisior/Advisior";
 
 const App = () => {
     return (
