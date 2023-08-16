@@ -28,7 +28,7 @@
 }
 
 /* Style for input text */
-input[type="text"] {
+input[type="number"] {
     padding-bottom: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -39,7 +39,7 @@ input[type="text"] {
   }
   
   /* Optional: Add focus style for better user experience */
-  input[type="text"]:focus {
+  input[type="number"]:focus {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);

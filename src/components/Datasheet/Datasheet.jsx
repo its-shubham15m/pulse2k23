@@ -38,7 +38,7 @@ function Datasheet() {
         <h1>Team Room Allotment</h1>
         <label>Enter BillNo: </label>
         <input
-          type="text"
+          type="number"
           value={inputNumber}
           onChange={(e) => setInputNumber(e.target.value)}
         />
