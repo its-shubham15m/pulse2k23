@@ -37,7 +37,7 @@ function Datasheet() {
       <div className="data-content container">
         <div className='datasheet'>
           <div>
-            <h1>Team Room Allotment</h1>
+            <h1 className='title'>Team Room Allotment</h1>
             <label>Enter BillNo: </label>
             <input
               type="number"
