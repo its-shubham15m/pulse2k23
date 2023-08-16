@@ -29,10 +29,9 @@
 
 /* Style for input text */
 input[type="number"] {
-    padding-bottom: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 1.27rem;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
