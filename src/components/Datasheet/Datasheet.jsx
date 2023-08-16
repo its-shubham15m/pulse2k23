@@ -33,30 +33,34 @@ function Datasheet() {
   };
 
   return (
-    <div className='datasheet'>
-      <div>
-        <h1>Team Room Allotment</h1>
-        <label>Enter BillNo: </label>
-        <input
-          type="number"
-          value={inputNumber}
-          onChange={(e) => setInputNumber(e.target.value)}
-        />
-        <button className="datasheet-btn" onClick={handleSearch}>Search</button>
-      </div>
-      <div>
-        {teamName && (
+    <div className="data section" id="datasheet">
+      <div className="data-content container">
+        <div className='datasheet'>
           <div>
-            <h2>Team Name</h2>
-            <p>{teamName}</p>
+            <h1>Team Room Allotment</h1>
+            <label>Enter BillNo: </label>
+            <input
+              type="number"
+              value={inputNumber}
+              onChange={(e) => setInputNumber(e.target.value)}
+            />
+            <button className="datasheet-btn" onClick={handleSearch}>Search</button>
           </div>
-        )}
-        {roomno && (
           <div>
-            <h2>Room Number</h2>
-            <p>{roomno}</p>
+          {teamName && (
+            <div>
+              <h2>Team Name</h2>
+              <p>{teamName}</p>
+            </div>
+          )}
+          {roomno && (
+            <div>
+              <h2>Room Number</h2>
+              <p>{roomno}</p>
+            </div>
+          )}
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
