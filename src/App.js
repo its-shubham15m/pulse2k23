@@ -15,12 +15,14 @@ import Department from "./components/Department/Department";
 import Members from "./components/Members/Members";
 import Sponsor from "./components/Sponsor/Sponsor";
 import Advisior from "./components/Advisior/Advisior";
+import Datasheet from "./components/Datasheet/Datasheet";
 
 const App = () => {
     return (
         <div>
             <Loader delay={2500}>
             <Hero></Hero>
+            <Datasheet></Datasheet>
             <VideoPlayer></VideoPlayer>
             <About></About>
             <Department></Department>

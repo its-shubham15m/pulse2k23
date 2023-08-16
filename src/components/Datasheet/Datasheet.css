@@ -1,0 +1,48 @@
+.datasheet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.datasheet-btn {
+    display: inline-block;
+    background-color: var(--main-yellow);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+    font-weight: 450;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.datasheet-btn:hover{
+    transition: all 0.25s ease-in-out;
+    background-color: var(--main-yellow-dark);
+}
+
+/* Style for input text */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Add focus style for better user experience */
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
