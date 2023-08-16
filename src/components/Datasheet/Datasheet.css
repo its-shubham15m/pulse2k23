@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   width: 100%;
   font-size: 0.8rem;
   font-weight: 400;
@@ -30,10 +29,10 @@
 
 /* Style for input text */
 input[type="text"] {
-    padding: 10px;
+    padding-bottom: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 10px;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
