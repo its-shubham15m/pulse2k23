@@ -17,11 +17,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   color: white;
-  padding-bottom: 5rem;
 }
 
 .datasheet-btn {
@@ -46,7 +44,7 @@
 input[type="number"] {
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
