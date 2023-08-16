@@ -49,13 +49,13 @@ function Datasheet() {
           <div>
           {teamName && (
             <div>
-              <h2>Team Name</h2>
+              <h2 className='data-heading'>Team Name</h2>
               <p>{teamName}</p>
             </div>
           )}
           {roomno && (
             <div>
-              <h2>Room Number</h2>
+              <h2 className='data-heading'>Room Number</h2>
               <p>{roomno}</p>
             </div>
           )}
