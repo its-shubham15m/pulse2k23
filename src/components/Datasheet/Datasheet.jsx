@@ -44,7 +44,6 @@ function Datasheet() {
         />
         <button className="datasheet-btn" onClick={handleSearch}>Search</button>
       </div>
-
       <div>
         {teamName && (
           <div>
